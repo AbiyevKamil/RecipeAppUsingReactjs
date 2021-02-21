@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,400&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    min-height: 100vh;
+    background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%),rgba(0,0,0,0.3);
+    background-size: cover;
+    text-align: center;
+}
+
+.title {
+    padding-top: 15px;
+    font-size: 50px;
+    color: #181515;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+}
+
+.search-container {
+    height: 50px;
+    width: 60%;
+    margin: 0 auto 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container * {
+    height: 100%;
+}
+
+.search-box {
+    width: 80%;
+    padding: 0 15px;
+    outline: none;
+    appearance: none;
+    border-radius: 5px 0 0 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3),
+    0 -4px 6px rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.6);
+    border-color: rgba(0, 0, 0, 0.1);
+    border-right: none;
+    color: white;
+}
+
+.search-btn {
+    height: 100%;
+    width: 20%;
+    outline: none;
+    appearance: none;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3),
+    -2px -4px 6px rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.search-btn:hover {
+    box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.3),
+    -2px -4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.search-result {
+    display: grid;
+    grid-template: auto / 1fr 1fr 1fr;
+    width: 100%;
+}
+
+
+
+
+
+
